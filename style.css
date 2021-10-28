@@ -7,16 +7,18 @@ html {
 
 body {
     color: #000;
-    font-size:  2.5rem;
+    font-size:  2rem;
+    margin:10;
+    align-items: center;
 }
 
 
 
 header {
     background-color:   DeepSkyBlue;
-    border:  10px solid Orange;
-    margin:  50px;
+    border: 10px solid Orange;
     padding: 50px;
+    margin:50px;
     display: flex;
     justify-content: Space-between;     /* move items along Main axis*/
     align-items: center;                 /* moves items along cross axis*/
@@ -48,10 +50,10 @@ footer {
 
 section {
     background-color: yellow;    
-     border:  10px solid Orange;
+    border:  10px solid Orange;
     margin:  25px;
-     padding: 25px;
-     display: flex;
+    padding: 25px;
+    display: flex;
     justify-content: Space-around;     /* move items along Main axis*/
     align-items: center;                 /* moves items along cross axis*/
     width: 70vw;
